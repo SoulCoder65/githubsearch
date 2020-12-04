@@ -1,0 +1,37 @@
+const UserInfo=
+{
+    "login": "andrew",
+  "id": 1060,
+  "node_id": "MDQ6VXNlcjEwNjA=",
+  "avatar_url": "https://avatars2.githubusercontent.com/u/1060?v=4",
+  "gravatar_id": "",
+  "url": "https://api.github.com/users/andrew",
+  "html_url": "https://github.com/andrew",
+  "followers_url": "https://api.github.com/users/andrew/followers",
+  "following_url": "https://api.github.com/users/andrew/following{/other_user}",
+  "gists_url": "https://api.github.com/users/andrew/gists{/gist_id}",
+  "starred_url": "https://api.github.com/users/andrew/starred{/owner}{/repo}",
+  "subscriptions_url": "https://api.github.com/users/andrew/subscriptions",
+  "organizations_url": "https://api.github.com/users/andrew/orgs",
+  "repos_url": "https://api.github.com/users/andrew/repos",
+  "events_url": "https://api.github.com/users/andrew/events{/privacy}",
+  "received_events_url": "https://api.github.com/users/andrew/received_events",
+  "type": "User",
+  "site_admin": false,
+  "name": "Andrew Nesbitt",
+  "company": null,
+  "blog": "https://nesbitt.io",
+  "location": "UK",
+  "email": "abc@gmail.com",
+  "hireable": null,
+  "bio": "Software engineer and researcher",
+  "twitter_username": "teabass",
+  "public_repos": 292,
+  "public_gists": 192,
+  "followers": 2484,
+  "following": 3149,
+  "created_at": "2008-02-27T11:39:22Z",
+  "updated_at": "2020-11-13T06:58:39Z"
+
+}
+export default UserInfo;

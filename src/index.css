@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: #aec6cf; */
+  background-color: #F0FFF0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/*--------------------- Navbar ---------------*/
+/* App Bar */
+.Appbar-css{
+  height: 8%;
+  font-family: 'Roboto', sans-serif;
+  background-color: white !important;
+}
+/* App Bar End*/
+.navbar-title-div{
+  width: 20%;
+  background-color:#dc143c;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+/* Nav typography */
+#nav-typography{
+  font-size: 120%;
+}
+/* Nav typography End*/
+/* -------------------Navbar End------------*/
+
+/* ------------------Search Field-------------- */
+.search-field-div{
+  margin-top: 2%;
+  position: relative;
+  margin-bottom: 2%;
+}
+.MuiTextField-root{
+  width: 20% ;
+}
+/* Search btn */
+#search-btn{
+  position: absolute;
+  bottom: 15%;
+  margin-left: 2%;
+  background-color: #dc143c !important;
+}
+/* Search btn End*/
+/* ------------------Search Field-------------- Emd*/
+
+/* MEdia Queries */
+@media screen and (max-width:600px)
+{
+  .navbar-title-div{
+    width: 40%;
+  }
+  
+  
+}
+@media screen and (max-width:600px)
+{
+  .MuiTextField-root{
+    width: 100% ;
+    
+  }
+  .search-field-div{
+    display: flex;
+    flex-direction: column;
+    position: static;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+  #search-btn{
+    position: static;
+    margin-top: 3%;
+    
+  }
+}
+
+/* ---------------------------------------Paper Infos----------------------------------- */
+/* .info-paper-card{
+  width: 230px;
+  height: 90px;
+  background-color: white;
+  -webkit-box-shadow: 1px 1px 8px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    1px 1px 8px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         1px 1px 8px 0px rgba(50, 50, 50, 0.75);
+} */
+.card-interior-css{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+/* ---------------------------------------Paper Infos End----------------------------------- */
+
+/* --------------------------------------Followers- ----------------------------------------*/
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* --------------------------------------Followers- End----------------------------------------*/
